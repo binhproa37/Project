@@ -2,11 +2,10 @@
 #define CONSTANT_H_INCLUDED
 #include <SDL.h>
 #include <SDL_image.h>
-#include <SDL_image.h>
+
 static SDL_Window* window=NULL;
 static SDL_Renderer* screen=NULL;
 static SDL_Event event;
-
 
 const float PI=3.14;
 const int SCREEN_WIDTH=1102;
